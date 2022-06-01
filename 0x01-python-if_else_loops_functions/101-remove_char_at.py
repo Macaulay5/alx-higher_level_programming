@@ -9,12 +9,12 @@ def remove_char_at(str, n):
     str : str
         The string from which the position needs to be removed
     n : int
-       The position of the string to be deleted
+        The position of the string to be deleted
     Returns
     -------
     str
-            The copy of the string without the deleted position
-       """
+        The copy of the string without the deleted position
+    """
 
     new_str = ""
 
