@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 
 
-
-
-
-
-
 def magic_calculation(a, b):
     """
     Perform the computation as the following bytecode:
