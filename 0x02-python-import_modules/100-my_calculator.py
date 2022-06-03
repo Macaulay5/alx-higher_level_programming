@@ -30,4 +30,3 @@ if __name__ == "__main__":
     except ZeroDivisionError:
         print("Invalid operation. Cannot divide by zero")
         sys_exit(1)
-
