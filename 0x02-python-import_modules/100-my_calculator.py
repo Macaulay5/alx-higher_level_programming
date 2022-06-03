@@ -28,6 +28,6 @@ if __name__ == "__main__":
         sys_exit(1)
 
     except ZeroDivisionError:
-         print("Invalid operation. Cannot divide by zero")
-         sys_exit(1)
+        print("Invalid operation. Cannot divide by zero")
+        sys_exit(1)
 
