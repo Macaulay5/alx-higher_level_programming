@@ -14,5 +14,6 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(nargs))
 
-        for i, v in enumerate(argv[1:]):
-            print("{}: {}".format(i + 1, v))
+    for i, v in enumerate(argv[1:]):
+        print("{}: {}".format(i + 1, v))
+
