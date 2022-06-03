@@ -12,7 +12,7 @@ if __name__ == "__main__":
     elif nargs == 1:
         print("1 argument:")
     else:
-        print({} arguments:".format(nargs))
+        print("{} arguments:".format(nargs))
 
-    for i, v in enumerate(argv[1:]):
-        print("{}: {}".format(i + 1, v))
+        for i, v in enumerate(argv[1:]):
+            print("{}: {}".format(i + 1, v))
