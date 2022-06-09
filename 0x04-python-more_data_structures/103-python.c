@@ -30,11 +30,13 @@ void print_python_bytes(PyObject *p)
 		printf("  first %d bytes: ", calc_bytes);
 		print_hexn(clone->ob_sval, calc_bytes);
 		printf("\n");
+	}
+        else
+	{	
+	        printf("  [ERROR] Invalid Bytes Object\n");
+   	}	
 }
-else
-{
-	printf("  [ERROR] Invalid Bytes Object\n");
-}
+
 
 void print_python_list(PyObject *p)
 {
