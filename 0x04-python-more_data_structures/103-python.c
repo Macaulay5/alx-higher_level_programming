@@ -37,7 +37,6 @@ void print_python_bytes(PyObject *p)
    	}	
 }
 
-
 void print_python_list(PyObject *p)
 {
 	int i = 0, list_len = 0;
@@ -57,3 +56,4 @@ void print_python_list(PyObject *p)
 		if (PyBytes_Check(item))
 			print_python_bytes(item);
 	}
+}
