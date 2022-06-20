@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def list_division(my_list_1, my_list_2, list_length):
     """ Divide each element of a list by the corresponding element of another"""
+    """
     results = list()
     for index in range(list_length):
         try:
