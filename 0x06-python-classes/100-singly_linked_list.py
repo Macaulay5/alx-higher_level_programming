@@ -40,18 +40,18 @@ class Node():
         self.__next_node = next_node
 
 
-    class SinglyLinkedList():
-        """ Definition of a singly-linked list
+class SinglyLinkedList():
+    """ Definition of a singly-linked list
+    """
+    def __init__(self):
+        """ Instantiate a singly-linked list
         """
-        def __init__(self):
-            """ Instantiate a singly-linked list
-            """
-            self.__head = None
+        self.__head = None
 
-        def __str__(self):
-            """ Generate a visual representation of a list
-            """
+    def __str__(self):
+        """ Generate a visual representation of a list
+        """
 
-        def sorted_insert(self, value):
-            """ Inset a Node into a list sorted in ascending order
-            """
+    def sorted_insert(self, value):
+        """ Inset a Node into a list sorted in ascending order
+        """
