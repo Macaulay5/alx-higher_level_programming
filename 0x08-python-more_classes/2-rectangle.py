@@ -55,4 +55,3 @@ class Rectangle():
         if self.width and self.height:
             return 2 * (self.width + self.height)
         return 0
-        
